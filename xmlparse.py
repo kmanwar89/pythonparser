@@ -6,20 +6,20 @@
 # 9/7/2016
 
 # Variables
-total = 0.0
+total = 0
 
 # User input
-filename = input('Enter the name of the file you want to open:')
+filename = "calls.xml"
 
 # Open the file to parse
 infile = open(filename, 'r')
 
 # Read the number of lines in the file
 for line in infile:
-    
+    total += 1
 
 # display the result in human-readable format
 print("This file contains", total, "lines in it")
 
 # close the file
-file.close()
+infile.close()

@@ -14,18 +14,19 @@ class CallHandler( xml.sax.ContentHandler ):
     def __init__(self):
         self.Number = ""
         self.Duration = ""
-        self.ReadableDate = ""
+        self.Date = ""
         self.Type = ""
 
     # Define when an element starts
-    def startElement(self, number, duration, type, readable_date):
+    def startElement(self, number, duration, type, date):
         self.CurrentData = type
         if type == "1":
             print ("Call: Sent")
-        elif type
+        elif type == "2":
+            print ("Call: Received")
 
     # Define when an element ends
-    def endElement(self, number, duration, type, readable_date):
+    def endElement(self, number, duration, type, date):
         if self.CurrentData == "type":
             print ("Type:", self.Type)
         elif self.CurrentData == "number":
@@ -33,7 +34,7 @@ class CallHandler( xml.sax.ContentHandler ):
         elif self.CurrentData == "duration":
             print ("Call Duration:", self.Duration)
         elif self.ReadableDate == "readable_date":
-            print ("Date:", self.ReadableDate)
+            print ("Date:", self.Date)
         self.CurrentData = ""
 
     # Call when a character is read
@@ -44,8 +45,8 @@ class CallHandler( xml.sax.ContentHandler ):
             self.Number = content
         elif self.CurrentData == "duration":
             self.Duration = content
-        elif self.ReadableDate == "readable_date":
-            self.ReadableDate = content
+        elif self.Date == "date":
+            self.Date = content
 
 # Call the main function from within the class
 if ( __name__ == "__main__"):
