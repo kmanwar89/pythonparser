@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!--File Created By SMS Backup & Restore v8.50.86 on 06/09/2016 21:54:32-->
+<?xml-stylesheet type="text/xsl" href="calls.xsl"?>
+<calls count="7" backup_set="24a8043c-6a10-46bf-89a5-49b02d57d869" backup_date="1473213272076">
+  <call number="9018675309" duration="505" date="1467998061690" type="1" presentation="1" readable_date="Jul 8, 2016 1:14:21 PM" contact_name="(Unknown)" />
+  <call number="9018675309" duration="33" date="1467998854819" type="2" presentation="1" readable_date="Jul 8, 2016 1:27:34 PM" contact_name="(Unknown)" />
+  <call number="19018675309" duration="1494" date="1468013465905" type="2" presentation="1" readable_date="Jul 8, 2016 5:31:05 PM" contact_name="(Unknown)" />
+  <call number="9018675309" duration="0" date="1468011232283" type="2" presentation="1" readable_date="Jul 8, 2016 4:53:52 PM" contact_name="Joe Schmo" />
+  <call number="19018675309" duration="1030" date="1468016866218" type="2" presentation="1" readable_date="Jul 8, 2016 6:27:46 PM" contact_name="(Unknown)" />
+  <call number="19018675309" duration="3955" date="1468018588131" type="2" presentation="1" readable_date="Jul 8, 2016 6:56:28 PM" contact_name="(Unknown)" />
+  <call number="9018675309" duration="165" date="1468022978630" type="2" presentation="1" readable_date="Jul 8, 2016 8:09:38 PM" contact_name="Some One" />
+</calls>
